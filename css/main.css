@@ -117,10 +117,13 @@ a {
   vertical-align: baseline;
   background: transparent;
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 body {
   background: linear-gradient(90deg, #253453 0%, #2b4b86 100%);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+  color: #fff;
 }
 .wrapper {
   max-width: 1200px;
@@ -203,7 +206,7 @@ h4 {
   width: 250px;
   height: 250px;
 }
-.content--item > a > h4 {
+.content--item > a > h4, .content--item > a > h5 {
   margin: 12px 10px 5px 10px;
   text-align: center;
 }
